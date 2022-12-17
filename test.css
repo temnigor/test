@@ -1,0 +1,79 @@
+body{
+    width: 596px;
+    height: 842px;
+    margin: auto;
+    background-color: rgb(109, 102, 102);
+}
+
+.page{
+    position: relative;
+    top: 50px;
+    width: 674px;
+    height: 918px;
+    margin: auto;
+    background-color: white;
+}
+
+.main-box{
+    position: relative;
+    top: 435px;
+    left: 110px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: #D9D9D9;
+    
+}
+.big-circle {
+    position: absolute;
+    bottom: 139px;
+    right: 130px;
+    width: 237px;
+    height: 239px;
+    border-radius: 155px;
+    background-color: rgb(36, 132, 86);
+}
+
+.circle {
+    position: absolute;
+    top: 103px;
+    right: 58px;
+    width: 75px;
+    height: 75px;
+    background-color: rgb(12, 165, 101);
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.triangle {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent; 
+    border-bottom: 80px solid rgb(206, 54, 7);
+}
+
+.rectangle {
+    position: absolute;
+    right: 38px;
+    bottom: 38.9px;
+    width: 226px;
+    height: 60px;
+    background-color: rgb(146, 15, 191);
+    border-radius: 20px;
+}
+
+.rectangle-wand{
+    position: absolute;
+    top:15px;
+    left: 127px;
+    width: 36px;
+    height: 229px;
+    background-color: rgb(28, 63, 155);
+    transform: rotate(-43.18deg)
+
+}
+    
+    
